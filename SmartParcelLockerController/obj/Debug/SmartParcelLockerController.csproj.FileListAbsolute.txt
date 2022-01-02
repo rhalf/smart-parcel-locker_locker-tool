@@ -1,0 +1,11 @@
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\bin\Debug\SmartParcelLockerController.exe.config
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\bin\Debug\SmartParcelLockerController.exe
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\bin\Debug\SmartParcelLockerController.pdb
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.fMain.resources
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.exe
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.pdb
+C:\Users\User\Documents\GitHub\SmartParcelLockerController\SmartParcelLockerController\obj\Debug\SmartParcelLockerController.csproj.AssemblyReference.cache
