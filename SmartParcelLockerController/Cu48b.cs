@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartParcelLockerController
+namespace ElectronicLockerTool
 {
     internal class Cu48b
     {

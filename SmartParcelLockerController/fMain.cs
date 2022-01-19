@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmartParcelLockerController
+namespace ElectronicLockerTool
 {
     public partial class fMain : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace SmartParcelLockerController
+﻿namespace ElectronicLockerTool
 {
     partial class fMain
     {
@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbPortName = new System.Windows.Forms.ComboBox();
             this.bScanPortNames = new System.Windows.Forms.Button();
+            this.bConnect = new System.Windows.Forms.Button();
             this.gbControls = new System.Windows.Forms.GroupBox();
             this.tlpControls = new System.Windows.Forms.TableLayoutPanel();
             this.bUnlockAll = new System.Windows.Forms.Button();
@@ -156,7 +157,6 @@
             this.cbLocker43 = new System.Windows.Forms.CheckBox();
             this.gbOutput = new System.Windows.Forms.GroupBox();
             this.rtbOutput = new System.Windows.Forms.RichTextBox();
-            this.bConnect = new System.Windows.Forms.Button();
             this.gbSerial.SuspendLayout();
             this.tlpLeft.SuspendLayout();
             this.gbControls.SuspendLayout();
@@ -272,6 +272,17 @@
             this.bScanPortNames.Text = "Scan";
             this.bScanPortNames.UseVisualStyleBackColor = true;
             this.bScanPortNames.Click += new System.EventHandler(this.bScanPortNames_Click);
+            // 
+            // bConnect
+            // 
+            this.bConnect.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bConnect.Location = new System.Drawing.Point(772, 6);
+            this.bConnect.Name = "bConnect";
+            this.bConnect.Size = new System.Drawing.Size(94, 24);
+            this.bConnect.TabIndex = 5;
+            this.bConnect.Text = "Connect";
+            this.bConnect.UseVisualStyleBackColor = true;
+            this.bConnect.Click += new System.EventHandler(this.bConnect_Click);
             // 
             // gbControls
             // 
@@ -1608,17 +1619,6 @@
             this.rtbOutput.Size = new System.Drawing.Size(872, 166);
             this.rtbOutput.TabIndex = 0;
             this.rtbOutput.Text = "";
-            // 
-            // bConnect
-            // 
-            this.bConnect.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bConnect.Location = new System.Drawing.Point(772, 6);
-            this.bConnect.Name = "bConnect";
-            this.bConnect.Size = new System.Drawing.Size(94, 24);
-            this.bConnect.TabIndex = 5;
-            this.bConnect.Text = "Connect";
-            this.bConnect.UseVisualStyleBackColor = true;
-            this.bConnect.Click += new System.EventHandler(this.bConnect_Click);
             // 
             // fMain
             // 
