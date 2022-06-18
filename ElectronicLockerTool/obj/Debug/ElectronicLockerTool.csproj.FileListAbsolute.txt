@@ -9,3 +9,14 @@ C:\Users\User\Documents\GitHub\SmartParcelLockerController\ElectronicLockerTool\
 C:\Users\User\Documents\GitHub\SmartParcelLockerController\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\GitHub\SmartParcelLockerController\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.exe
 C:\Users\User\Documents\GitHub\SmartParcelLockerController\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.pdb
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.fMain.resources
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\ElectronicLockerTool.exe.config
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\ElectronicLockerTool.exe
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\ElectronicLockerTool.pdb
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.exe
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.pdb
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\ElectronicLockerTool.csproj.AssemblyReference.cache

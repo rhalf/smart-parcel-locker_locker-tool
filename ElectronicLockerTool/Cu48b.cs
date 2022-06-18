@@ -6,33 +6,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ElectronicLockerTool
+namespace KerongLockerTool
 {
     internal class Cu48b
     {
         SerialPort _serialPort;
         byte[] _dataOut;
         byte[] _dataIn;
+        uint _boardNumber = 0;
         BitArray _lockers;
         BitArray _sensors;
 
-        public static int ADDRESS_ALL = 0x0A;
-        public static int LOCKER_ALL = 0x30;
-        public static int GET_STATUS = 0x60;
-        public static int LOCKER_UNLOCK = 0x61;
-        public static int LOCKER_STATUS = 0x75;
+        public static uint ADDRESS_ALL = 0x0A;
+        public static uint LOCKER_ALL = 0x30;
+        public static uint GET_STATUS = 0x60;
+        public static uint LOCKER_UNLOCK = 0x61;
+        public static uint LOCKER_STATUS = 0x75;
 
 
         public delegate void OnDataReceivedHandler(object sender, EventArgs e);
         public event OnDataReceivedHandler onDataReceived;
 
-        public Cu48b(String portName, int baudrate)
+        public Cu48b(String portName, uint baudrate)
         {
             try
             {
                 _serialPort = new SerialPort();
                 _serialPort.PortName = portName;
-                _serialPort.BaudRate = baudrate;
+                _serialPort.BaudRate = (Int32) baudrate;
                 _serialPort.StopBits = StopBits.One;
                 _serialPort.Handshake = Handshake.None;
                 _serialPort.Parity = Parity.None;
@@ -89,7 +90,7 @@ namespace ElectronicLockerTool
         }
 
 
-        public void send(int address, int lockerNumber, int command)
+        public void send(uint address, uint lockerNumber, uint command)
         {
             _dataOut = new byte[6];
             _dataOut[0] = 0x02;
@@ -120,6 +121,11 @@ namespace ElectronicLockerTool
             get { return _dataOut; }
         }
 
+        public uint boardNumber
+        {
+            get { return _boardNumber; }
+        }
+
         public byte[] dataIn
         {
             get { return _dataIn; }
@@ -146,6 +152,8 @@ namespace ElectronicLockerTool
             if (prevCheckSum != currentCheckSum) throw new Exception("CheckSum is wrong");
 
             if (datas[3] != 0x75) throw new Exception("Wrong command");
+
+            _boardNumber = datas[1];
 
             _lockers = new BitArray(new byte[] {
                 datas[4],

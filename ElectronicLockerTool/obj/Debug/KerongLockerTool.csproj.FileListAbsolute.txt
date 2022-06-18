@@ -1,0 +1,11 @@
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\KerongLockerTool.exe.config
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\KerongLockerTool.exe
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\bin\Debug\KerongLockerTool.pdb
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.fMain.resources
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.exe
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.pdb
+C:\Users\User\Documents\GitHub\smart-parcel-locker_locker-tool\ElectronicLockerTool\obj\Debug\KerongLockerTool.csproj.AssemblyReference.cache
