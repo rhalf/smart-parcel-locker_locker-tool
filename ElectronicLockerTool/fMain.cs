@@ -29,32 +29,7 @@ namespace KerongLockerTool
 
         private void fMain_Load(object sender, EventArgs e)
         {
-            _boardNumbers = new List<uint>();
-
-            //_cblockers = new checkbox[48] {
-            //    cblocker00, cblocker01, cblocker02, cblocker03, cblocker04, cblocker05, cblocker06, cblocker07,
-            //    cblocker08, cblocker09, cblocker10, cblocker11, cblocker12, cblocker13, cblocker14, cblocker15,
-            //    cblocker16, cblocker17, cblocker18, cblocker19, cblocker20, cblocker21, cblocker22, cblocker23,
-            //    cblocker24, cblocker25, cblocker26, cblocker27, cblocker28, cblocker29, cblocker30, cblocker31,
-            //    cblocker32, cblocker33, cblocker34, cblocker35, cblocker36, cblocker37, cblocker38, cblocker39,
-            //    cblocker40, cblocker41, cblocker42, cblocker43, cblocker44, cblocker45, cblocker46, cblocker47
-            //};
-
-            //foreach (var checkBox in _cbLockers)
-            //{
-            //    checkBox.Click += new EventHandler(_cbLockers_Clicked);
-            //    checkBox.CheckedChanged += new EventHandler(_cbLockers_CheckedChanged);
-            //}
-
-            //_cbSensors = new CheckBox[48]
-            //{
-            //    cbSensor00, cbSensor01, cbSensor02, cbSensor03, cbSensor04, cbSensor05, cbSensor06, cbSensor07,
-            //    cbSensor08, cbSensor09, cbSensor10, cbSensor11, cbSensor12, cbSensor13, cbSensor14, cbSensor15,
-            //    cbSensor16, cbSensor17, cbSensor18, cbSensor19, cbSensor20, cbSensor21, cbSensor22, cbSensor23,
-            //    cbSensor24, cbSensor25, cbSensor26, cbSensor27, cbSensor28, cbSensor29, cbSensor30, cbSensor31,
-            //    cbSensor32, cbSensor33, cbSensor34, cbSensor35, cbSensor36, cbSensor37, cbSensor38, cbSensor39,
-            //    cbSensor40, cbSensor41, cbSensor42, cbSensor43, cbSensor44, cbSensor45, cbSensor46, cbSensor47,
-            //};
+            _boardNumbers = new List<uint>();  
 
             uint[] baudRates = { 110, 150, 300, 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600 };
             cbBaudRate.Items.Clear();
@@ -68,16 +43,11 @@ namespace KerongLockerTool
             fMain.Text = Assembly.GetEntryAssembly().GetName().Name;
         }
 
-        private void _cbLockers_CheckedChanged(object sender, EventArgs e)
-        {
-            CheckBox cb = (CheckBox)sender;
-
-        }
-
         private void _bLocker_Clicked(object sender, EventArgs e)
         {
-
             Button button = (Button)sender;
+
+            if (cu48b == null) return;
 
             try
             {
